@@ -1,0 +1,6 @@
+Options- Indexes
+
+<FilesMatch "\.(php|html|htm|js|css)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
